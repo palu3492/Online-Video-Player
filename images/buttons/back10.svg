@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px">
+    <style>
+        .a{stroke-width:2;stroke:white;}
+    </style>
+    <g fill="none">
+        <path d="M6.0007383999999995 8.99804242C4.744470700000001 10.6696987 4 12.7479091 4 15 4 20.5228475 8.477152499999999 25 14 25 19.522847499999997 25 24 20.5228475 24 15 24 9.4771525 19.522847499999997 5 14 5L12 5"
+              class="a"/>
+        <polyline points="15.5 1.5 12 4.92749023 15.5 8.5" class="a"/>
+        <polyline points="11 1.5 7.5 5 11 8.5" class="a"/>
+        <text font-size="11" letter-spacing="-0.3" style="fill:white;font-weight:400">
+            <tspan x="8" y="19">10</tspan>
+        </text>
+    </g>
+</svg>

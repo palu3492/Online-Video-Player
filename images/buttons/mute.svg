@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px">
+    <style>
+        .a{stroke-width:2;stroke:white;}
+    </style>
+    <g fill="white">
+        <polygon points="13 22 7 18 3 18 3 10 7 10 13 6"/>
+    </g>
+    <g transform="translate(19.5 14)rotate(-315)">
+        <path d="M-4.5 0L4.5 0" class="a"/>
+        <path d="M0-4.5L0 4.5" class="a"/>
+    </g>
+</svg>

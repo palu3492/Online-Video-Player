@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href='media-player.css' rel='stylesheet' />
-    <!--<script src='media-player.js'></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='progressBar.js'></script>
 </head>
 <body>
 
     <div id="flex-container">
         <div id="inner-container">
             <div id="media-controls">
+                <div id="hover-time-stamp">
+                    <p id="media-time">10:42</p>
+                </div>
                 <div id="progress-bar-container">
-                    <div id="progress-bar">
-                        <div id="thumbholder">
-                            <div id="thumb"></div>
-                        </div>
+                    <div id="progress-bar" class="progress-bar">
+                            <div id="thumbholder">
+                                <div id="thumb"></div>
+                            </div>
+                    </div>
+                    <div id="hover-progress-bar" class="progress-bar">
                     </div>
                 </div>
                 <div id="media-buttons">
-                    <button id='play-pause-button' class='control-button'></button>
-                    <button id='skip-back-button' class='control-button'></button>
-                    <button id='skip-forward-button' class='control-button'></button>
+                    <button id='play-pause-button' class='media-button'></button>
+                    <button id='skip-back-button' class='media-button'></button>
+                    <button id='skip-forward-button' class='media-button'></button>
+                    <button id='mute-button' class='media-button'></button>
+                    <div id="volume-container" class="media-object"></div>
+                    <div id='spacer'></div>
+                    <div id='settings-button' class='media-button'></div>
+                    <div id='full-screen-button' class='media-button'></div>
                 </div>
             </div>
         </div>

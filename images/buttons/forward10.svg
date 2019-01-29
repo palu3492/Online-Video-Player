@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px">
+<style>.a{stroke-width:2;stroke:white;}</style>
+<g fill="none">
+    <g transform="translate(14 13)scale(-1 1)translate(-14 -13)translate(4 1)">
+        <path d="M2 8C0.7 9.7 0 11.7 0 14 0 19.5 4.5 24 10 24 15.5 24 20 19.5 20 14 20 8.5 15.5 4 10 4L8 4" class="a"/>
+        <polyline points="11.5 0.5 8 3.9 11.5 7.5" class="a"/>
+        <polyline points="7 0.5 3.5 4 7 7.5" class="a"/>
+    </g>
+    <text font-size="11" letter-spacing="-0.3" style="fill:white;font-weight:400">
+        <tspan x="8" y="19">10</tspan>
+    </text>
+</g>
+</svg>

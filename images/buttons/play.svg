@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px">
+    <style>
+        .a{stroke-width:2;stroke:white;}
+    </style>
+    <g fill="white">
+        <polygon points="8 22 8 6 22 14" class="a"/>
+    </g>
+</svg>
