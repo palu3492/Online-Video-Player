@@ -1,9 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function() { initialiseResize(); }, false);
-var innerContainer;
 var mediaControls;
 function initialiseResize() {
-    innerContainer = $("#inner-container");
     mediaControls = $("#media-controls");
     setupResizable ();
 }

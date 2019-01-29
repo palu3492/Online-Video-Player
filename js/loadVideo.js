@@ -10,15 +10,22 @@ function initialiseLoad() {
 }
 
 function loadClicked(){
-    src = srcInput.val();
-    // Check if can play
-    // Load video
-    // set src
+    var src = srcInput.val();
+    var split = src.split('.');
+    var videoExtension = split[split.length-1];
+    if (canPlayVideo(videoExtension)){
+        var source = mediaPlayer.find($('source'));
+        source.attr("src", src);
+        source.attr("type", 'video/' + videoExtension);
+        mediaPlayer[0].load();
+    } else {
+        alert('Cannot play .' + videoExtension + " videos")
+    }
 }
 
 
 function canPlayVideo(ext) {
-    var ableToPlay = mediaPlayer.canPlayType('video/' + ext);
+    var ableToPlay = mediaPlayer[0].canPlayType('video/' + ext);
     if (ableToPlay === '') return false;
     else return true;
 }
@@ -29,7 +36,7 @@ function dropButtonClick(){
     var display = menu.css('display');
     if(display === 'none'){
         // change image
-        menu.css('display', 'flex');
+        menu.css('display', 'initial');
         button.css('background-image','url(images/pushUp.png)');
     } else {
         menu.css('display', 'none');

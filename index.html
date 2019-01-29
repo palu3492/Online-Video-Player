@@ -8,20 +8,21 @@
     <link href='css/resizable.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/dropDownMenu.css">
+    <link rel="stylesheet" href="css/dragDrop.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src='js/mediaPlayer.js'></script>
     <script src='js/progressBar.js'></script>
     <script src="js/resizeMediaPlayer.js"></script>
     <script src="js/loadVideo.js"></script>
+    <script src="js/dragDrop.js"></script>
 </head>
 <body>
-
     <div id="flex-container">
         <div id="inner-container">
+            <div id="drag-drop-container"></div>
             <video id='media-video' controls>
                 <source src='test.mp4' type='video/mp4'>
-                <!--<source src='parrots.webm' type='video/webm'>-->
             </video>
             <div id="media-controls">
                 <div id="hover-time-stamp">
@@ -50,8 +51,11 @@
             <div id="drop-down-container">
                 <button id="drop-down-button"></button>
                 <div id="drop-down-menu">
-                    <input placeholder="Enter video url" type="text" id="src-input" class="menu-objects">
-                    <button id="load-video" class="menu-objects">Load video</button>
+                    <div id="input-menu">
+                        <input placeholder="Enter video url" type="text" id="src-input" class="menu-objects">
+                        <button id="load-video" class="menu-objects">Load video</button>
+                    </div>
+                    <p id="menu-note">Or drag a local video into your browser</p>
                 </div>
             </div>
         </div>

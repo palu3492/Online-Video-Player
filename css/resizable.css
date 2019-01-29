@@ -6,7 +6,10 @@
 .ui-icon, .ui-widget-content .ui-icon {
     background-image: url(../images/videoResize.png)!important;
     background-position: unset!important;
+    display: none;
 }
-.ui-resizable ui-resizable-resizing{
-    pointer-events: none!important;
-}
+/*.ui-resizable ui-resizable-resizing{*/
+    /*pointer-events: none!important;*/
+/*}*/
+
+/*ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se*/

@@ -23,10 +23,12 @@ function initialiseMediaPlayer() {
 
 function mouseInContainer(){
     $('#media-controls').css('display', 'initial');
+    $('.ui-icon').css('display', 'initial');
 }
 
 function mouseOutContainer(){
     $('#media-controls').css('display', 'none');
+    $('.ui-icon').css('display', 'none');
 }
 
 function containerResize(){
@@ -60,11 +62,11 @@ function skipTen(back){
 function toggleMute() {
     var muteButton = $('#mute-button');
     if (mediaPlayer[0].muted) {
-        muteButton.css('background', 'url(images/buttons/mute.svg)');
+        muteButton.css('background', 'url(images/buttons/unmute.svg)');
         mediaPlayer[0].muted = false;
     }
     else {
-        muteButton.css('background', 'url(images/buttons/unmute.svg)');
+        muteButton.css('background', 'url(images/buttons/mute.svg)');
         mediaPlayer[0].muted = true;
     }
 }

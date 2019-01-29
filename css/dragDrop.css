@@ -1,0 +1,10 @@
+
+#drag-drop-container{
+    width: 472px;
+    height: 286px;
+    background: url('../images/dragAndDrop1.png');
+    position: absolute;
+    left: calc(50% - 236px);
+    TOP: calc(50% - 143px);
+    display: none;
+}

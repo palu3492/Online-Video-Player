@@ -1,9 +1,9 @@
 
 #drop-down-container{
     width: 400px;
-    height: 54px;
+    height: 101px;
     position: absolute;
-    bottom: -65px;
+    bottom: -115px;;
     left: calc(50% - 200px);
 }
 
@@ -28,13 +28,15 @@
     opacity: 1.0;
 }
 
-
 #drop-down-menu{
+    display: none;
+}
+
+#input-menu{
     padding-top: 25px;
-    /*display: flex;*/
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    display: none;
 }
 
 .menu-objects{
@@ -47,4 +49,12 @@
 
 #load-video{
     cursor: pointer;
+}
+
+#menu-note{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
 }
