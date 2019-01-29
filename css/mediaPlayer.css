@@ -10,6 +10,7 @@
     position: absolute;
     bottom: 0;
     left: 2%;
+    display: none;
 }
 
 #hover-time-stamp{
@@ -95,8 +96,8 @@
 
 .media-button{
     background-color: transparent;
-    background-image: url(../images/buttons/play.svg);
-    background-size: 100% 100%;
+    /*background-image: url(../images/buttons/play.svg);*/
+    /*background-size: 100% 100%;*/
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;

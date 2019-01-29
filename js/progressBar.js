@@ -17,6 +17,7 @@ function initialiseProgress() {
     progressBarContainer.on( "mousedown", function(e){ mouseDownProgress(); mouseMoveProgress(e); });
     innerContainer.on( "mousemove", function(e){ mouseMoveContainer(e) });
     $('body').on( "mouseup", mouseUpProgress);
+    mediaPlayer[0].addEventListener('timeupdate', updateProgressBar, false);
 }
 
 function mouseMoveProgress(e){
@@ -47,5 +48,15 @@ function mouseUpProgress(){
 function mouseMoveContainer(e){
     if (mouseDown){
         mouseMoveProgress(e)
+    }
+}
+
+function updateProgressBar(){
+    if(!mouseDown) {
+        var currentTime = mediaPlayer[0].currentTime;
+        var width = progressBarContainer.width();
+        var multiply = width / mediaPlayer[0].duration;
+        var newTime = currentTime * multiply;
+        progressBar.css('width', newTime);
     }
 }

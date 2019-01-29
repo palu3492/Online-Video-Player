@@ -1,6 +1,7 @@
 
 #drop-down-container{
     width: 400px;
+    height: 54px;
     position: absolute;
     bottom: -65px;
     left: calc(50% - 200px);
@@ -20,13 +21,20 @@
     position: absolute;
     left: calc(50% - 31px);
     top: 0;
+    opacity: 0.1;
 }
+
+#drop-down-button:hover {
+    opacity: 1.0;
+}
+
 
 #drop-down-menu{
     padding-top: 25px;
-    display: flex;
+    /*display: flex;*/
     flex-direction: row;
     justify-content: flex-start;
+    display: none;
 }
 
 .menu-objects{

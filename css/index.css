@@ -4,6 +4,7 @@ html, body {
     background: black;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 #flex-container {
@@ -16,9 +17,11 @@ html, body {
 }
 
 #inner-container {
-    width: 640px;
-    height: 360px;
+    min-width: 312px;
+    min-height: 175px;
     background: black;
     position: relative;
     border: solid 1px #292929;
+    width: 640px;
+    height:360px;
 }

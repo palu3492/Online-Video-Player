@@ -7,3 +7,6 @@
     background-image: url(../images/videoResize.png)!important;
     background-position: unset!important;
 }
+.ui-resizable ui-resizable-resizing{
+    pointer-events: none!important;
+}

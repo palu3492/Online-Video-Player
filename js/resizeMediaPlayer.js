@@ -13,8 +13,8 @@ function setupResizable () {
         aspectRatio: 16 / 9,
         maxHeight: 1080,
         maxWidth: 1920,
-        minHeight: 230,
-        minWidth: 400,
+        minHeight: 175,
+        minWidth: 312,
         handles: "se"
     });
     // innerContainer.hover(changeResizeClasses);
