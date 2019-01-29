@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href='media-player.css' rel='stylesheet' />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src='progressBar.js'></script>
+    <link href='css/index.css' rel='stylesheet'>
+    <link href='css/mediaPlayer.css' rel='stylesheet'>
+    <link href='css/resizable.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/dropDownMenu.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src='js/mediaPlayer.js'></script>
+    <script src='js/progressBar.js'></script>
+    <script src="js/resizeMediaPlayer.js"></script>
+    <script src="js/loadVideo.js"></script>
 </head>
 <body>
 
     <div id="flex-container">
         <div id="inner-container">
+            <video id='media-video' controls>
+                <source src='test.mp4' type='video/mp4'>
+                <!--<source src='parrots.webm' type='video/webm'>-->
+            </video>
             <div id="media-controls">
                 <div id="hover-time-stamp">
                     <p id="media-time">10:42</p>
@@ -33,6 +45,13 @@
                     <div id='spacer'></div>
                     <div id='settings-button' class='media-button'></div>
                     <div id='full-screen-button' class='media-button'></div>
+                </div>
+            </div>
+            <div id="drop-down-container">
+                <button id="drop-down-button"></button>
+                <div id="drop-down-menu">
+                    <input type="text" id="src-input" class="menu-objects">
+                    <button id="load-video" class="menu-objects">Load Video</button>
                 </div>
             </div>
         </div>

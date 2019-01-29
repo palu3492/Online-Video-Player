@@ -1,0 +1,42 @@
+
+#drop-down-container{
+    width: 400px;
+    position: absolute;
+    bottom: -65px;
+    left: calc(50% - 200px);
+}
+
+#drop-down-button{
+    background-color: transparent;
+    background-image: url(../images/dropDown.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 13px;
+    cursor: pointer;
+    border: none;
+    outline: unset;
+    padding: unset;
+    position: absolute;
+    left: calc(50% - 31px);
+    top: 0;
+}
+
+#drop-down-menu{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.menu-objects{
+    margin: 4px;
+}
+
+#src-input{
+    flex-grow: 1;
+}
+
+#load-video{
+    cursor: pointer;
+}

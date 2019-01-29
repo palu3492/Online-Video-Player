@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f87ba8-0c6c-4002-9f6f-4be86b4ab10c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/buttons/back10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buttons/forward10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buttons/fullscreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buttons/mute.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buttons/pause.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buttons/play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buttons/settings.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buttons/volume.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progressBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/dropDownMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/resizable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/loadVideo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mediaPlayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/resizeMediaPlayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/design.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/images/design.xcf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media-player.css" beforeDir="false" afterPath="$PROJECT_DIR$/media-player.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media-player.js" beforeDir="false" afterPath="$PROJECT_DIR$/old.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media-player.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mediaPlayer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/old.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/progressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/progressBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,35 +33,89 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patreon/js/content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mediaPlayer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mediaPlayer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1240">
+              <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resizable.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/resizable.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropDownMenu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/dropDownMenu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadVideo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/loadVideo.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media-player.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/media-player.css">
+      <file leaf-file-name="old.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/old.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="old.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="726">
+              <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="progressBar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progressBar.js">
+        <entry file="file://$PROJECT_DIR$/js/progressBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mediaPlayer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mediaPlayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -70,15 +125,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>updateProgressBar</find>
+      <find>flex</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -102,9 +158,22 @@
         <option value="$PROJECT_DIR$/images/buttons/fullscreen.svg" />
         <option value="$PROJECT_DIR$/images/buttons/settings.svg" />
         <option value="$PROJECT_DIR$/media-player.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/progressBar.js" />
         <option value="$PROJECT_DIR$/media-player.css" />
+        <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/resizable.css" />
+        <option value="$PROJECT_DIR$/resizeMediaPlayer.js" />
+        <option value="$PROJECT_DIR$/css/media-player.css" />
+        <option value="$PROJECT_DIR$/js/progressBar.js" />
+        <option value="$PROJECT_DIR$/css/mediaPlayer.css" />
+        <option value="$PROJECT_DIR$/css/resizable.css" />
+        <option value="$PROJECT_DIR$/patreon/js/content.js" />
+        <option value="$PROJECT_DIR$/js/resizeMediaPlayer.js" />
+        <option value="$PROJECT_DIR$/js/mediaPlayer.js" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/css/dropDownMenu.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/loadVideo.js" />
       </list>
     </option>
   </component>
@@ -137,6 +206,32 @@
               <item name="Online-Video-Player" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online-Video-Player" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Online-Video-Player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Video-Player" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Video-Player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Video-Player" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Video-Player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Video-Player" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Video-Player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Video-Player" type="462c0819:PsiDirectoryNode" />
+              <item name="patreon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Video-Player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Video-Player" type="462c0819:PsiDirectoryNode" />
+              <item name="patreon" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -146,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Chrome Extentions/Patreon Video Popout/Patreon-Video-Player Github" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -156,6 +251,10 @@
       <recent name="X:\Programming\Websites\Video Player\Online-Video-Player" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\Programming\Websites\Video Player\Online-Video-Player\css" />
+      <recent name="X:\Programming\Websites\Video Player\Online-Video-Player\images" />
+      <recent name="X:\Programming\Websites\Video Player\Online-Video-Player\js" />
+      <recent name="X:\Programming\Websites\Video Player\Online-Video-Player" />
       <recent name="X:\Programming\Websites\Video Player\Online-Video-Player\images\buttons" />
     </key>
   </component>
@@ -181,12 +280,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548665902920</updated>
-      <workItem from="1548665904184" duration="18517000" />
+      <workItem from="1548665904184" duration="24621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18517000" />
+    <option name="totallyTimeSpent" value="24621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -218,13 +317,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -252,31 +344,113 @@
     <entry file="file://$PROJECT_DIR$/images/buttons/back10.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/old.js">
+    <entry file="file://$PROJECT_DIR$/patreon/js/conversionfunctions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patreon/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="289">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playButton.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/placeholder.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery-ui.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patreon/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/resizeMediaPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/resizable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mediaPlayer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patreon/js/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dropDownMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/progressBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loadVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progressBar.js">
+    <entry file="file://$PROJECT_DIR$/js/mediaPlayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media-player.css">
+    <entry file="file://$PROJECT_DIR$/js/old.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+        <state relative-caret-position="726">
+          <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
         </state>
       </provider>
     </entry>

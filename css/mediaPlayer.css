@@ -1,25 +1,7 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    background: black;
-    width: 100%;
-    height: 100%;
-}
 
-#flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: DodgerBlue;
-}
 
-#inner-container {
-    width: 600px;
-    height: 400px;
-    background: #e2e2e2;
-    position: relative;
+#media-video{
+
 }
 
 #media-controls{
@@ -63,7 +45,7 @@ html, body {
 }
 
 .progress-bar{
-    width: 25%;
+    width: 5px;
     height: 7px;
     background: red;
     position: absolute;
@@ -113,7 +95,7 @@ html, body {
 
 .media-button{
     background-color: transparent;
-    background-image: url(images/buttons/play.svg);
+    background-image: url(../images/buttons/play.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 30px;
@@ -124,12 +106,12 @@ html, body {
     padding: unset;
     margin: 3px;
 }
-#play-pause-button{background-image: url(images/buttons/play.svg);}
-#skip-back-button{background-image: url(images/buttons/back10.svg);}
-#skip-forward-button{background-image: url(images/buttons/forward10.svg);}
-#mute-button{background-image: url(images/buttons/mute.svg);}
-#settings-button{background-image: url(images/buttons/settings.svg);}
-#full-screen-button{background-image: url(images/buttons/fullscreen.svg);}
+#play-pause-button{background-image: url(../images/buttons/play.svg);}
+#skip-back-button{background-image: url(../images/buttons/back10.svg);}
+#skip-forward-button{background-image: url(../images/buttons/forward10.svg);}
+#mute-button{background-image: url(../images/buttons/mute.svg);}
+#settings-button{background-image: url(../images/buttons/settings.svg);}
+#full-screen-button{background-image: url(../images/buttons/fullscreen.svg);}
 
 #volume-container{
     width: 60px;
