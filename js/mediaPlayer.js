@@ -18,6 +18,7 @@ function initialiseMediaPlayer() {
     $('#skip-forward-button').click(function(){skipTen(false)});
 
     $('#mute-button').click(toggleMute);
+    $('#full-screen-button').click(toggleFullScreen);
 
 }
 
@@ -68,6 +69,16 @@ function toggleMute() {
     else {
         muteButton.css('background', 'url(images/buttons/mute.svg)');
         mediaPlayer[0].muted = true;
+    }
+}
+
+function toggleFullScreen(){
+    if(mediaPlayer[0].requestFullScreen){
+        mediaPlayer[0].requestFullScreen();
+    } else if(mediaPlayer[0].webkitRequestFullScreen){
+        mediaPlayer[0].webkitRequestFullScreen();
+    } else if(mediaPlayer[0].mozRequestFullScreen){
+        mediaPlayer[0].mozRequestFullScreen();
     }
 }
 
