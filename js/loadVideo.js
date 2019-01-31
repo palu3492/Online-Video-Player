@@ -20,7 +20,7 @@ function loadClicked(){
         source.attr("type", 'video/' + videoExtension);
         mediaPlayer[0].load();
     } else {
-        alert('Cannot play .' + videoExtension + " videos")
+        alert('Cannot play .' + videoExtension + " videos \n Next update will allow many more video files to be played")
     }
 }
 
