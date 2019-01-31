@@ -18,7 +18,7 @@ function initialiseProgress() {
     progressBarContainer.on( "mouseleave", mouseLeaveProgress);
     progressBarContainer.on( "mousedown", function(e){ mouseDownProgress(); mouseMoveProgress(e); });
     innerContainer.on( "mousemove", function(e){ mouseMoveContainer(e) });
-    $('body').on( "mouseup", mouseUpProgress);
+    $('body').on( "mouseup", function(e){ mouseUpBody(e) });
     mediaPlayer[0].addEventListener('timeupdate', updateProgressBar, false);
 }
 
@@ -30,13 +30,16 @@ function mouseMoveProgress(e){
         progressBar.css('width', x);
     }
 
-    var duration = mediaPlayer[0].duration;
-    var width = progressBarContainer.width();
-    var seconds = (duration/width)*x;
-    mediaTime.html(secondsToString(seconds));
+    mediaTime.html(secondsToString(getSeconds(x)));
 
     timeStamp.css('display', 'initial');
     timeStamp.css('left', x-15);
+}
+
+function getSeconds(x){
+    var duration = mediaPlayer[0].duration;
+    var width = progressBarContainer.width();
+    return (duration/width)*x;
 }
 
 function secondsToString(seconds){
@@ -66,7 +69,10 @@ function mouseDownProgress(){
     // go to that time
 }
 
-function mouseUpProgress(){
+function mouseUpBody(e){
+    var offset = progressBarContainer.offset();
+    var x = e.pageX - offset.left;
+    mediaPlayer[0].currentTime = getSeconds(x);
     mouseDown = false;
     timeStamp.css('display', 'none');
 }

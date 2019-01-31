@@ -52,12 +52,13 @@ function togglePlayPause() {
 }
 
 function skipTen(back){
-    var currentTime = mediaPlayer[0].currentTime;
+    var newTime = parseInt(mediaPlayer[0].currentTime);
     if(back){
-        mediaPlayer[0].currentTime = currentTime - 10;
+        newTime -= 10;
     } else {
-        mediaPlayer[0].currentTime = currentTime + 10;
+        newTime += 10;
     }
+    mediaPlayer[0].currentTime = newTime;
 }
 
 function toggleMute() {
