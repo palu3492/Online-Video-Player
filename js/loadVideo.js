@@ -10,6 +10,7 @@ function initialiseLoad() {
 }
 
 function loadClicked(){
+    // mov plays as mp4
     var src = srcInput.val();
     var split = src.split('.');
     var videoExtension = split[split.length-1];

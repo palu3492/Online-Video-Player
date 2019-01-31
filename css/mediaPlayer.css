@@ -106,11 +106,18 @@
     outline: unset;
     padding: unset;
     margin: 3px;
+    /* Stop drag */
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 #play-pause-button{background-image: url(../images/buttons/play.svg);}
 #skip-back-button{background-image: url(../images/buttons/back10.svg);}
 #skip-forward-button{background-image: url(../images/buttons/forward10.svg);}
-#mute-button{background-image: url(../images/buttons/mute.svg);}
+#mute-button{background-image: url(../images/buttons/unmute.svg);}
 #settings-button{background-image: url(../images/buttons/settings.svg);}
 #full-screen-button{background-image: url(../images/buttons/fullscreen.svg);}
 
