@@ -20,6 +20,7 @@ function initialiseProgress() {
     innerContainer.on( "mousemove", function(e){ mouseMoveContainer(e) });
     $('body').on( "mouseup", function(e){ mouseUpBody(e) });
     mediaPlayer[0].addEventListener('timeupdate', updateProgressBar, false);
+    mediaPlayer.on('resize', updateProgressBar());
 }
 
 function mouseMoveProgress(e){

@@ -6,7 +6,7 @@ function initialiseMediaPlayer() {
     mediaPlayer = $('#media-video');
     mediaPlayer[0].controls = false;
     mediaPlayer[0].volume = 0.05;
-    innerContainer = $("#inner-container");
+    innerContainer = $("#media-player-container");
     containerResize();
     innerContainer.on('resize', containerResize);
     innerContainer.hover(mouseInContainer, mouseOutContainer);

@@ -1,5 +1,5 @@
 # Online-Video-Player
-
+Website for playing local or online videos in a custom HTML5 video player. Supports drag and drop. The default video player designed by your browser can be to simple and not offer enough functionality. This video player gives you the functionality you're used to seeing on services like Netflix or YouTube.
 
 # Screenshots
 ![alt text](https://github.com/palu3492/Online-Video-Player/blob/master/images/screenshots/screenshot1.png?raw=true)
